@@ -21,6 +21,7 @@ rm /usr/bin/git
 ln -s /usr/local/git/bin/git /usr/bin/git
 
 yaf本地安装2.3.5,而不是3.0.2
+http://pecl.php.net/get/yaf-2.3.5.tgz
 
 /usr/local/server/php/etc/php.ini 启用proc_open() phpinfo() 并且启用yaf
 /usr/local/server/php/etc/php-fpm.ini 删除cmstop 并且修改缓存目录路径到你的站点
